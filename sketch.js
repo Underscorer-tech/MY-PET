@@ -58,9 +58,11 @@ database.ref('/').update({food:data});
 }
  function getFood(){
 if (foodS === 0 ){
-  foodS  = 20}
+  foodS  = 20
+  dog.addImage(dogimg)
+}
 database.ref('/').update({food:foodS})
-dog.addImage(dogimg)
+
 
  }
 
